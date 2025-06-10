@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS and Editor Specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python/
+env/
+venv/
+pip-log.log
+pip-delete-this-directory.log
+.env
+.venv/ # Include this for newer venv usage if not already covered
+
+# Backend specific (if any generated files)
+backend/__pycache__/
+backend/venv/ # Explicitly ignore the backend's virtual environment
+
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
